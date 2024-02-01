@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo Cohen - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Smogo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Hugo COHEN</h1>
+          <p class="title">Développeur Fullstack Junior<br>Alternant à l'IUT de Montreuil</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Afficher Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hugo.cohen27@protonmail.com" class="contact-link">hugo.cohen27@protonmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Mobilité</p>
+
+              <address>Île-De-France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <div class="cv-box">
+          <a href="/pas-de-cv-raison-vie-prive.pdf" target="_blank" class="cv-link">Voir mon CV</a>
+        </div>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Lony027" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hugo-cohen-162a49261" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Présentation</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Parcours</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projets</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Compétences</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="présentation  active" data-page="présentation">
+
+        <header>
+          <h2 class="h2 article-title">Présentation</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Développeur et musicien, je suis passionné par la technologie et son rapport avec la culture. J'occupe actuellement la place de développeur fullstack 
+            en alternance dans l'entreprise ChargeGuru. Je suis en parallèle en train de finaliser un BUT Informatique. En dehors de l'aspect professionnel, 
+            je consacre la majorité de mon temps à produire de la musique et à chercher de nouveaux projets sur GitHub !
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Mes activités</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/songwriter.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Musique</h4>
+
+                <p class="service-item-text">
+                  Composition, enregistrement, mixage, mastering, et des dizaines de projets !
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/computer.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">"Geekerie"</h4>
+
+                <p class="service-item-text">
+                  Open source, digging et autres mots qui effraient mes amis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/art.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Culture</h4>
+
+                <p class="service-item-text">
+                  Passionné d'art, je passe beaucoup de temps à découvrir et à approfondir mes connaissances.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/learn.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Apprendre</h4>
+
+                <p class="service-item-text">
+                  J'adore découvrir de nouveaux domaines et explorer Internet pour en savoir plus.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--         
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="Parcours" data-page="parcours">
+
+        <header>
+          <h2 class="h2 article-title">Parcours</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Académique</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IUT de Montreuil</h4>
+
+              <span>2021 — Maintenant</span>
+
+              <p class="timeline-text">
+                Parcours dans le développement d'applications : acquisition d'une vaste quantité de connaissances informatiques, allant du développement au réseau, jusqu'au déploiement d'applications.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lycée Olympe de Gouges</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                Obtention d'un baccalauréat général avec mention bien. Option euro (Anglais UK). </br> Spécialités : Mathématiques et Physique-Chimie.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professionnel</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ChargeGuru - Alternance</h4>
+
+              <span>2023 — Maintenant</span>
+
+              <p class="timeline-text">
+                Développement sur Salesforce, Typescript et ReactJS. Conception de fonctionnalités et résolution de bugs sur un CMS. Mise en place d'un nouveau site web avec maîtrise et création d'une stack technique.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ChargeGuru - Stage</h4>
+
+              <span>Avril 2023 — Juillet 2023</span>
+
+              <p class="timeline-text">
+                Découverte du travail en entreprise, intégration au sein d'une équipe, collaboration avec différentes équipes pour répondre aux besoins métier.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="musical-notes-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Musical</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Conservatoire</h4>
+
+              <span>2010 — 2020</span>
+
+              <p class="timeline-text">
+                Guitare classique, solfège, ensemble, chorale.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cours d'Harmonie et de piano</h4>
+
+              <span>2023 — Maintenant</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Projets
+      -->
+
+      <article class="projets" data-page="projets">
+
+        <header>
+          <h2 class="h2 article-title">Projets</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tout</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Académique</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Professionnel</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Personnel</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tout</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="académique">
+              <a href="https://github.com/DUT-Info-Montreuil/MiskovicCohenFaure_SAE_S2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/terraria.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Terraria Like</h3>
+
+                <p class="project-category">Académique</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="académique">
+              <a href="https://github.com/DUT-Info-Montreuil/AudioDope">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/audiodope.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AudioDope</h3>
+
+                <p class="project-category">Académique</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="académique">
+              <a href="https://github.com/DUT-Info-Montreuil/SAE4A-COHEN-ARGENCE-BAUDIER-YANG">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/zaza-burger.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ZaZa Burger</h3>
+
+                <p class="project-category">Académique</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="académique">
+              <a href="https://github.com/Lony027/poke-zaza">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pokedex.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pokedex</h3>
+
+                <p class="project-category">Académique</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="académique">
+              <a href="https://github.com/DUT-Info-Montreuil/SAE-5.A-EDT">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/edt.png" class="image-projet" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gestion EDT</h3>
+
+                <p class="project-category">Académique</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="professionnel">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Site Web Client</h3>
+
+                <p class="project-category">Professionnel</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="professionnel">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Site Web Electricien</h3>
+
+                <p class="project-category">Professionnel</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="personnel">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/arch.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arch Linux</h3>
+
+                <p class="project-category">Personnel</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="personnel">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nas.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NAS (Network Attached Storage)</h3>
+
+                <p class="project-category">Personnel</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="personnel">
+              <a href="https://miamoalex.net/home">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/miamo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Composition Bande Son</h3>
+
+                <p class="project-category">Personnel</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="compétences" data-page="compétences">
+
+        <header>
+          <h2 class="h2 article-title">Compétences</h2>
+        </header>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
